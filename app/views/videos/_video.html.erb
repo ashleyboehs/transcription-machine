@@ -1,0 +1,18 @@
+<div id="<%= dom_id video %>" class="w-full sm:w-auto my-5 space-y-5">
+  <div>
+    <strong class="block font-medium mb-1">Library:</strong>
+    <%= video.library_id %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Guid:</strong>
+    <%= video.guid %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Title:</strong>
+    <%= video.title %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Captions:</strong>
+    <%= video.captions? ? "Yes" : "No" %>
+  </div>
+</div>
